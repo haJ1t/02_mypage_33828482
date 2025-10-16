@@ -73,7 +73,7 @@ const server = http.createServer((req, res) => {
           ]
         : [
             'I am Halit Ozger, a CS Year 3 student at Goldsmiths, University of London.',
-            'Academic interests: software engineering fundamentals, algorithms, and building small but robust services.',
+            'Academic interests: software engineering fundamentals, algorithms, and building small but robust services. I love football',
             'This web app demonstrates a minimal custom HTTP server that returns a properly structured HTML document.',
             ...environmentMessage(req)
           ]
